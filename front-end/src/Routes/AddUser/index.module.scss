@@ -1,0 +1,35 @@
+.crear__usuario {
+  background-color: #292c33;
+  height: 30rem;
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  button {
+    height: 3rem;
+    background-color: #82d7f7;
+    color: black;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    &:hover {
+      opacity: 0.5;
+      cursor: pointer;
+    }
+  }
+  input {
+    background-color: transparent;
+    height: 3rem;
+    outline: none;
+    border: none;
+    margin: 1rem 0;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius: 8px;
+    border-bottom: 1px solid #373940;
+    &:focus {
+      background-color: #373940;
+    }
+  }
+}
